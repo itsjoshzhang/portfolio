@@ -1,0 +1,89 @@
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title> Josh Zhang </title>
+</head>
+<body>
+    <div id = container>
+        <img src = "pfp.jpg">
+        <h1> Josh Zhang </h1>
+        <section id = "education">
+            <h2> Education </h2>
+            <h3> University of California, Berkeley &emsp; 2022 - Present </h3>
+            <ul>
+                <li> GPA (total and technical): 4.00 </li>
+                <li> Major: Electrical Engineering and Computer Sciences </li>
+                <li> Coursework (relevant and completed): </li>
+                <li> &emsp; CS61A: Structure and Interpretation of Computer Programs </li>
+                <li> &emsp; CS61B: Data Structures and Algorithms </li>
+                <li> &emsp; EECS 16A: Designing Information Devices and Systems I </li>
+            </ul> 
+        </section>
+        <section id = "experience">
+            <h2> Experience </h2> 
+            <div class = "experience-wrapper">
+                <div class = "experience-item">
+                    <h3> Co-founder of Ponycody Inc. &emsp; 2020 - Present </h3>
+                    <ul>
+                        <li> Startup company I co-founded with classmates. </li>
+                        <li> Built a video game that taught programming languages. </li>
+                        <li> Used it to launch an educational website for younger students. </li>
+                        <li> Gave online lessons as a teacher and led marketing campaigns. </li>
+                        <li> Recruited colleagues to develop interface and write curriculum. </li>
+                        <li> Earned over $10,000 in total revenue over 4 years. </li>
+                    </ul>
+                </div>
+                <div class = "experience-item">
+                    <h3> Engineering Project at UT Knoxville &emsp; 2020 - 2022 </h3>
+                    <ul>
+                        <li> Summer project hosted by Professor Jindong Tan. </li>
+                        <li> Built a prototype mechanical arm with 3 other students. </li>
+                        <li> Researched existing robot AutoCAD models and patents. </li>
+                        <li> Built RGB-D cameras and trained ML software to identify objects. </li>
+                        <li> Published a patent (US 20200007843 A1) a year later. </li>
+                        <li> Currently selling design in the automation industry. </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id = "projects">
+            <h2> Projects </h2> 
+            <div class = "projects-wrapper">
+                <div class = "projects-item">
+                    <h3> The Game of Hog </h3>
+                    <button onclick = "location.href = 'https://github.com/itsjoshzhang/cs61a-hog.git'" type = "button" > Github </button>
+                    <p>
+                        In Hog, two players alternate turns trying to be the first to end a turn with at least GOAL total points, 
+                        where GOAL defaults to 100. On each turn, the current player chooses some number of dice to roll, up to 10. 
+                        That player's score for the turn is the sum of the dice outcomes. However, a player who rolls too many dice risks consequences.
+                    </p>
+                </div>
+                <div class = "projects-item">
+                    <h3> CS61A Autocorrected Typing Software </h3>
+                    <button onclick = "location.href = 'https://github.com/itsjoshzhang/cs61a-cats.git'" type = "button" > Github </button>
+                    <p>
+                        In this project, I have written a program that measures typing speed. Additionally, I have implemented typing autocorrect, 
+                        which is a feature that attempts to correct the spelling of a word after a user types it. This project is inspired by
+                        <a href="https://play.typeracer.com/"> Typeracer.</a>
+                        The CS61A staff solution to the project can be interacted with at
+                        <a href="https://cats.cs61a.org/"> cats.cs61a.org.</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id = "contact">
+            <h2> Contact </h2> 
+            <button onclick = "location.href = 'mailto:joshzhang@berkeley.edu'" type = "button" > joshzhang@berkeley.edu </button>
+            <button onclick = "location.href = 'https://www.linkedin.com/in/itsjoshzhang/'" type = "button" > LinkedIn </button>
+            <button onclick = "location.href = 'https://www.instagram.com/itsjoshzhang/'" type = "button" > Instagram </button>
+            <button onclick = "location.href = 'https://github.com/itsjoshzhang/'" type = "button" > Github </button>
+        </section>
+    </div>
+</body>
+</html>

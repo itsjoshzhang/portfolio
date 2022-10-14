@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #1d3557;
+        background-color: lightcyan;
+    margin: 50px;
+}
+img {
+    display: block;
+        width: 210px;
+        padding: 0px;
+        border: 5px solid #1d3557;
+            border-radius: 100%;
+        margin: auto;
+    transition: ease 0.5s;
+}
+img:hover {
+    border-radius: 0px;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    transition: ease 0.5s;
+}
+h1:hover {
+    text-decoration: underline;
+    color: darkslateblue;
+        background-color: white;
+}
+section {
+    text-align: center;
+    background-color: lightblue;
+        width: max-content;
+        padding: 10px;
+        border: 5px solid #1d3557;
+            border-radius: 20px;
+        margin: 10px;
+} 
+.experience-wrapper, .projects-wrapper {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.experience-item, .projects-item {
+    text-align: left;
+    background-color: lightskyblue;
+        width: 500px;
+        padding: 10px;
+        border: 5px solid #1d3557;
+            border-radius: 20px;
+        margin: 0px;
+    transition: ease 0.5s;
+}
+.experience-item:hover {
+    background-color: lightcyan;
+    border-radius: 0px;
+}
+.projects-item:hover {
+    background-color: lightsteelblue;
+    border-radius: 40px;
+}
+a {
+    color: #1d3557;
+    transition: 0.5s ease
+}
+a:hover {
+    color: white;
+        background-color: darkslateblue;
+}
+button {
+    color: white;
+    background-color: darkslateblue;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+        border: 2.5px solid #1d3557;
+            border-radius: 20px;
+    transition: ease 0.5s;
+}
+button:hover {
+    color: darkslateblue;
+        background-color: white;
+}
+@media only screen and (max-width: 600px) {
+    .experience-item, .projects-item{
+        width: 300px;
+    }
+}
